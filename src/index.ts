@@ -9,7 +9,7 @@ export default {
     reflare.push({
       path: '/*',
       upstream: {
-        domain: 'httpbin.org',
+        domain: 'api.openai.com',
         protocol: 'https',
       },
     });
