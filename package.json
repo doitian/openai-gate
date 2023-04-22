@@ -1,0 +1,20 @@
+{
+  "name": "reflare-template",
+  "version": "1.0.0",
+  "description": "The template to kickstart Reflare",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230321.0",
+    "typescript": "^5.0.4",
+    "wrangler": "2.14.0"
+  },
+  "dependencies": {
+    "reflare": "^1.1.4"
+  }
+}
